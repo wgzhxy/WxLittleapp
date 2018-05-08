@@ -1,0 +1,29 @@
+<!--pages/my/dialog.wxml-->
+<view style='background: cornsilk'>
+  <view style='margin-top:30px;text-align:center;'>
+    <view><text>填写个人信息</text></view>
+  </view>
+  <view class='dform'>
+    <form>
+      <view class='dviewcell'>
+        <view><text>姓名</text></view>
+        <input placeholder='请输入姓名'></input>
+      </view>
+      <view class='dviewcell'>
+        <view><text>电话</text></view>
+        <input placeholder='请输入电话' type='number'></input>
+      </view>
+      <view class='dviewcell'>
+        <view><text>身份证</text></view>
+        <input placeholder='请输入身份证' type='number'></input>
+      </view>
+      <view class='dviewcell'>
+        <view><text>简介</text></view>
+        <textarea class='richss' placeholder='请输入简介'></textarea>
+      </view>
+      <view class='dviewcell' style='text-align:center'>
+        <button bindtap='submit'>提交信息</button>
+      </view>
+    </form>
+  </view>
+</view>

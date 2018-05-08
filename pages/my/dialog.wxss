@@ -1,0 +1,16 @@
+/* pages/my/dialog.wxss */
+.dform {
+  margin-left:10px;
+  margin-top:25px;
+  padding: 10px;
+}
+
+.dviewcell {
+  padding: 5px;
+}
+
+.richss {
+  width: auto;
+  height: 80px;
+  border-bottom-color: bisque;                  
+}

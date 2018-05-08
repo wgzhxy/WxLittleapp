@@ -1,0 +1,5 @@
+<!--pages/my/user.wxml-->
+<view>
+  <text class='myInfo'>我的信息，就在这里！</text>
+  <map class='mapClass' latitude='{{latitude}}' longitude='{{longitude}}'></map>
+</view>

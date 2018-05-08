@@ -1,0 +1,11 @@
+/* pages/my/user.wxss */
+.myInfo {
+  background: brown;
+  font-size: 10;
+}
+
+.mapClass {
+  height: 400px;
+  width: auto;
+  text-align: center;
+}
